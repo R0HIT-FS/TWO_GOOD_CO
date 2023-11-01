@@ -129,6 +129,7 @@ gsap.to('#nav-right #links',{
 navbarAnimations()
 
 function footerAnimations(){
+
 gsap.from('#nav-left svg',{
     transform:'translateY(-110%)',
     scrollTrigger:{
@@ -137,7 +138,7 @@ gsap.from('#nav-left svg',{
         start:"top 20%",
         end:"top 15%",
         // markers:true,
-        scrub:true
+        scrub:true,
     }
 })
 

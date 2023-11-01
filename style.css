@@ -83,7 +83,6 @@ body{
     align-items: center;
     justify-content: center;
     z-index: 9;
-    
 }
 #nav-right #links a{
     text-decoration: none;
@@ -505,7 +504,7 @@ hr{
         position: absolute;
     }
     #nav-left{
-        height: 9.2vh;
+        height: 9.35vh;
         overflow: hidden;
         z-index: 9;
         /* color: white; */

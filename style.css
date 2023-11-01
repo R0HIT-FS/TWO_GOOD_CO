@@ -678,19 +678,12 @@ hr{
       #page5 .elem{
         height: 100%;
         width: 100%;
-        /* overflow: hidden; */
-        /* background-color: red; */
-        /* overflow: hidden;
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center; */
     }  
     #page5 .elem img{
-        height: 100%;
+        /* height: 100%; */
         width: 100%;
-        object-fit: cover;
-        /* scale:1.1; */
+        object-fit: contain;
+        scale:1.7;
     }
     #page5 #impact{
         min-height: 40vh;
